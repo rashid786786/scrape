@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL | E_STRICT);
 
 $dir = realpath(dirname(__FILE__));
-
+$local_variabl ="git hub";
 // Path constants
 defined('PROJECT_BASE') OR define('PROJECT_BASE', realpath($dir.'/../').'/');
 defined('SYSTEM_PATH') OR define('SYSTEM_PATH', PROJECT_BASE.'system/');
